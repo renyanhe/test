@@ -1,0 +1,14 @@
+.\objects\cpustate.o: ..\USER\cpustate.c
+.\objects\cpustate.o: ..\..\FreeRTOS\include\FreeRTOS.h
+.\objects\cpustate.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\cpustate.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\cpustate.o: ..\..\FreeRTOS\include\FreeRTOSConfig.h
+.\objects\cpustate.o: ..\..\FreeRTOS\include\projdefs.h
+.\objects\cpustate.o: ..\..\FreeRTOS\include\portable.h
+.\objects\cpustate.o: ..\..\FreeRTOS\include\deprecated_definitions.h
+.\objects\cpustate.o: ..\..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\objects\cpustate.o: ..\..\FreeRTOS\include\mpu_wrappers.h
+.\objects\cpustate.o: ..\..\FreeRTOS\include\task.h
+.\objects\cpustate.o: ..\..\FreeRTOS\include\list.h
+.\objects\cpustate.o: ..\USER\cpustate.h
+.\objects\cpustate.o: ..\..\FreeRTOS\include\StackMacros.h
