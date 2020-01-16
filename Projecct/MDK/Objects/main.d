@@ -58,4 +58,5 @@
 .\objects\main.o: ..\..\Libraries\seekfree\SEEKFREE_MMA8451.h
 .\objects\main.o: ..\..\Libraries\seekfree\SEEKFREE_MPU6050.h
 .\objects\main.o: ..\..\Libraries\seekfree\SEEKFREE_ICM20602.h
+.\objects\main.o: ..\MDK\task_init.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

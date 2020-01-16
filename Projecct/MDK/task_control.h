@@ -3,7 +3,7 @@
 
 #include "headfile.h"
 
-void Task_Control();
+void Task_Control(void);
 
 #endif
 

@@ -3,7 +3,7 @@
 
 #include "headfile.h"
 
-void Task_UI();
+void Task_UI(void);
 
 #endif
 

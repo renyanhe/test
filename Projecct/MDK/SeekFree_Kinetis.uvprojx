@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\USER\inc;..\USER\src;..\..\Libraries\startup\CoreSupport;..\..\Libraries\startup\DeviceSupport\MDK-ARM;..\..\Libraries\startup\DeviceSupport;..\..\Libraries\drives\inc;..\..\Libraries\drives\src;..\..\Libraries\seekfree;..\..\Libraries\FatFs;..\..\Libraries\FatFs\option;..\..\FreeRTOS;..\..\FreeRTOS\portable\MemMang;..\..\FreeRTOS\include;..\USER\src;..\..\FreeRTOS\portable\RVDS\ARM_CM4F;..\USER</IncludePath>
+              <IncludePath>..\USER\inc;..\USER\src;..\..\Libraries\startup\CoreSupport;..\..\Libraries\startup\DeviceSupport\MDK-ARM;..\..\Libraries\startup\DeviceSupport;..\..\Libraries\drives\inc;..\..\Libraries\drives\src;..\..\Libraries\seekfree;..\..\Libraries\FatFs;..\..\Libraries\FatFs\option;..\..\FreeRTOS;..\..\FreeRTOS\portable\MemMang;..\..\FreeRTOS\include;..\USER\src;..\..\FreeRTOS\portable\RVDS\ARM_CM4F;..\USER;..\MDK</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>

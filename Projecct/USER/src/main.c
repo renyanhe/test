@@ -13,6 +13,7 @@
    
 *********************************************/  
 #include "headfile.h"
+#include "task_init.h"
 #include <string.h>
 
 //任务优先级
@@ -27,7 +28,10 @@ void Task_Init(void *pvParameters);
 int main(void)
 {      
   get_clk();//上电后必须运行一次这个函数，获取各个频率信息，便于后面各个模块的参数设置
+	
 	EnableInterrupts;
+	
+gpio_init(A14,GPO,0);gpio_init(A15,GPO,0);gpio_init(A16,GPO,0);gpio_init(A17,GPO,0);
 	
 	//创建开始任务
   xTaskCreate((TaskFunction_t )Task_Init,            //任务函数
@@ -37,9 +41,7 @@ int main(void)
               (UBaseType_t    )TASK_INIT_PRIO,       //任务优先级
               (TaskHandle_t*  )&Task_Init_Handler);   //任务句柄              
   vTaskStartScheduler();          //开启任务调度
-    
-  while(1)
-  {}
+
 }
 
 

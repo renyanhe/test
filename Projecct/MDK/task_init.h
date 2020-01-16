@@ -31,6 +31,6 @@ extern TaskHandle_t Task_UI_Handler;
 //ÈÎÎñº¯Êı
 void Task_UI(void *pvParameters);
 
-void    task_init(void);
+//void Task_Init(void);
 
 #endif

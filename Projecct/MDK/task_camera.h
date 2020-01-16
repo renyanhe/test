@@ -3,7 +3,7 @@
 
 #include "headfile.h"
 
-void Task_Camera();
+void Task_Camera(void);
 
 #endif
 
