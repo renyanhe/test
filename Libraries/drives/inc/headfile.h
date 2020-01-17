@@ -68,4 +68,7 @@
 #include "SEEKFREE_MPU6050.h"
 #include "SEEKFREE_ICM20602.h"
 
+//--------用户函数-------
+#include "pid.h"
+
 #endif

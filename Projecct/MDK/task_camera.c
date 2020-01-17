@@ -7,14 +7,12 @@
 */
 void Task_Camera()
 {
-	camera_init();
+//	camera_init();
 	for(;;)
 	{
-		gpio_turn(A15);
+		gpio_turn(A17);
 	
 		vTaskDelay(1000);
 	}
 }
-	
-
-	
+		

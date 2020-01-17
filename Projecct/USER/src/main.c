@@ -30,8 +30,8 @@ int main(void)
   get_clk();//上电后必须运行一次这个函数，获取各个频率信息，便于后面各个模块的参数设置
 	
 	EnableInterrupts;
-	
-gpio_init(A14,GPO,0);gpio_init(A15,GPO,0);gpio_init(A16,GPO,0);gpio_init(A17,GPO,0);
+	uart_init(uart2,115200);//初始化串口2，波特率为115200，引脚对应查看MK60DN10_port_cfg.h
+	gpio_init(A14,GPO,0);gpio_init(A15,GPO,1);gpio_init(A16,GPO,0);gpio_init(A17,GPO,1);
 	
 	//创建开始任务
   xTaskCreate((TaskFunction_t )Task_Init,            //任务函数
